@@ -6,19 +6,19 @@ import 'package:task_app/solutions/solutions.dart';
 const List<Task> chapter3TaskList = [
   Task(
     taskModel: t_3_3_8_1,
-     solution: S3381(),
+    solution: S3381(),
   ),
   Task(
     taskModel: t_3_3_8_2,
-     solution: S3382(),
+    solution: S3382(),
   ),
   Task(
     taskModel: t_3_3_8_3,
-     solution: S3383(),
+    solution: S3383(),
   ),
   Task(
     taskModel: t_3_3_8_4,
-    // solution: S3384(),
+    solution: S3384(),
   ),
   Task(
     taskModel: t_3_3_8_5,
