@@ -15,7 +15,7 @@ void main() {
 
     expect(find.byType(Container), findsNWidgets(4));
 
-    final containerWidgets =
+    final containerWidgets =   
         tester.widgetList<Container>(find.byType(Container)).toList();
 
     List<Color> colors = [Colors.red, Colors.green, Colors.blue, Colors.yellow];
