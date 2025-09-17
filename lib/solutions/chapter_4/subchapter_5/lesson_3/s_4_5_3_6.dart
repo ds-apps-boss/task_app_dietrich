@@ -29,7 +29,6 @@ class S4536 extends StatelessWidget {
     
     return ListView.builder(
       shrinkWrap: true,
-      //physics: true ? const NeverScrollableScrollPhysics() :null,
       itemCount: products.length,
       itemBuilder: (context, index) {
         final product = products[index];
