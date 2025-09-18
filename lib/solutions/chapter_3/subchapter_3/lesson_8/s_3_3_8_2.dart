@@ -3,14 +3,11 @@ import 'package:flutter/material.dart';
 bool isPrime(int input) {
   switch (input) {
     case 0:
-      return false;
-      break;
+      return false;      
     case 1:
-      return false;
-      break;
+      return false;      
     case 2:
-      return true;
-      break;
+      return true;    
     default:
       if (input % 2 == 0) return false;
       for (int i = 3; i*i <= input; i+=2) {
